@@ -6,7 +6,7 @@ public class BallController : MonoBehaviour
 {
 
     [SerializeField]
-    [Tooltip("Just for debugging, adds some velocity during OnEnable")]
+    [Tooltip("Just for debugging, adds some velocity during Start")]
     private Vector3 initialVelocity;
 
     //[SerializeField]
